@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#search-keyword{
+ background: #ffc107;
+}
+
+li.articleClass{
+ background:#FFF;	
+ padding: 1px;
+ border: 1px solid #000;
+ margin-bottom: 1rem;	
+
+}
