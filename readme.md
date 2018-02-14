@@ -3,4 +3,4 @@
 PROJECT XHR DEMO FECTH
 ======================
 
-![img-readme](assets/img/fecth.png)
+![img-readme](public/assets/img/fecth.png)
