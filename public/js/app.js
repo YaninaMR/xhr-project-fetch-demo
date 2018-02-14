@@ -8,7 +8,7 @@
     e.preventDefault();
     responseContainer.innerHTML = '';
     searchedForText = searchField.value;
-    fetch(`http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=b9ce7f78872e46f19ea9410794908a65`)
+    fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=b9ce7f78872e46f19ea9410794908a65`)
     .then(handleErrors)
     .then(parseJSON)
     .then(addNews)
